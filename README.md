@@ -1,2 +1,2 @@
-# ink
-Inker™
+# Inker™
+Master server for Verber Servers
