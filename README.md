@@ -20,4 +20,6 @@ While the Verber™ web server uses "serfs" (bash scripts for Linux) to do vario
 
 A "knight" is basically a "serf", but on the ink repo server. This is to avoid confusion.
 
+## Note on Updates
+Note: Update version numbers reference the framework. Ongoing updates continue for the knights, etc job scripts. Framework needs rated, sequential alteration, which is why "version" numbers apply to them. Any update will update job scripts, regardless of the current version number.
 

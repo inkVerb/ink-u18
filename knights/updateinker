@@ -12,13 +12,13 @@ set -e
 
 # Download and unpack the latest checked version from the Inkver repo
 cd /var/local/ink/
-/var/local/verb/serfs/inkget inker.update.current
-unzip inker.update.current.zip
-rm -f inker.update.current.zip
+/var/local/verb/serfs/inkget ink-update
+unzip ink-update.zip
+rm -f ink-update.zip
 
 # Run the update script
-/var/local/ink/inker.update.current/update
+/var/local/ink/ink-update/update
 
 # Remove the entire updater
-rm -rf /var/local/ink/inker.update.current
+rm -rf /var/local/ink/ink-update
 
